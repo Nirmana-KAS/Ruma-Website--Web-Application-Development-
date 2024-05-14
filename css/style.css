@@ -1,0 +1,555 @@
+:root[darrk-theme]{
+    --akka-apata: #002153;
+}
+
+
+.font {
+    font-weight: 800px;
+}
+
+.space {
+    padding: 5px;
+    padding-right: 10px;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 135.023%;
+    /* 18.903px */
+}
+
+.nav-s {
+    height: 50px;
+    background-color: #BABCC8;
+}
+
+.btn-find {
+    background-color: white;
+    padding-top: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 2px;
+    color: #BABCC8;
+}
+
+.icons {
+    color: rgb(36, 36, 36);
+
+}
+
+.top-nav {
+    background-color: #000;
+    height: 50px;
+    justify-content: center;
+}
+
+.logo {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #e0e0e0;
+    padding: 4px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 6px;
+}
+
+.main-header {
+    color: #000;
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main-header-about {
+    color: #7c0c0c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+
+}
+
+.defult-btn {
+    border-radius: 10px;
+    background: #474747;
+    box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.50);
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+
+.main-sub-heder {
+    color: #000;
+    font-family: Inter;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main-pragraph {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.slide {
+    padding-right: 0%;
+}
+
+.slider-button {
+    border-radius: 10px;
+    background: #7C0C0C;
+    box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.50);
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.icons-header {
+    color: white;
+}
+
+.img-slider {
+    width: 100%;
+    height: 450px;
+    flex-shrink: 0;
+}
+
+.slider {
+
+    padding: 100px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+
+
+}
+.slider-ads{
+
+    padding: 100px;
+    padding-right: 0px;
+    color: white;
+
+}
+.main-header-ads {
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+.main-header-img img {
+    width: 100%;
+    height: auto;
+}
+
+.slider-img {
+    margin-right: 0px;
+}
+
+.about-header {
+    padding: 20px;
+    justify-content: center;
+    margin-right: 0px;
+    justify-items: center;
+
+}
+
+.cards {
+    background-color: #7c0c0c;
+    border: none;
+    color: white;
+}
+
+.about-img {
+    text-align: center;
+    padding: 50px;
+
+}
+
+.about-padding {
+    padding: 50px;
+}
+
+.fade-in-text {
+    opacity: 0;
+    animation: fadeInAnimation 1s ease-in forwards;
+}
+
+.myi {
+    position: absolute;
+}
+
+.rotate-animation {
+    animation: rotateAnimation 59s linear infinite;
+}
+
+@keyframes rotateAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.fade-in-btn {
+    opacity: 0;
+    animation: fadebtn 1s ease-in forwards;
+}
+
+@keyframes fadebtn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.fade-in-image {
+    opacity: 0;
+    animation: fadeslider 1s ease-in forwards;
+    animation-delay: 1s;
+}
+
+@keyframes fadeslider {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.step {
+    background-image: url("/img/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 40px;
+}
+
+.why-text {
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    font-size: 45px;
+}
+
+.def-font {
+    font-weight: 700;
+    color: #7C0C0C;
+    text-align: center;
+    font-size: 45px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.defu-font {
+    font-weight: 700;
+    color: #ffffff;
+
+    padding-top: 30px;
+    font-size: 35px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card-header {
+    background-color: #7C0C0C;
+    color: #ffffff;
+}
+
+.icon-round {
+    background-color: #7C0C0C;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.card-border {
+    border: none;
+
+}
+
+.about-text {
+    text-align: justify;
+}
+
+.card-size {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.space-area {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.frame_pc {
+    position: absolute;
+}
+
+.slider-s {
+    text-align: center;
+}
+
+.bg-map {
+    background-color: #7C0C0C;
+}
+
+.map {
+    color: #7C0C0C;
+}
+
+.map-space {
+    position: relative;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.frame {
+    padding: 50px;
+}
+
+.amounts {
+    text-align: center;
+}
+
+.amounts h3 {
+    font-weight: 700;
+    font-size: 35px;
+    color: #7C0C0C;
+}
+
+.amounts p {
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #7C0C0C;
+    color: #ffffff;
+}
+
+.items-footer {
+    padding-top: 100px;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer-padding {
+    justify-content: center;
+}
+
+.top-footer {
+    background-color: #460000;
+
+
+}
+
+.footer-text {
+    padding-top: 2px;
+    font-size: 12px;
+}
+
+.text-team {
+    text-align: center;
+    font-weight: 700;
+    color: #7C0C0C;
+    text-align: center;
+    font-size: 45px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav-bg {
+    background-color: #7C0C0C;
+    color: white;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: white;
+}
+
+.accountbg {
+    position: relative;
+    height: 100vh;
+    background-image: url("/img/wa.jpg");
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+.accountbg .content-center {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.accountbg .content-desc-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+.input-username{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn-login{
+    padding-right: 70px;
+    padding-left: 70px;
+    background-color: #7c0c0c;
+    border: none;
+}
+.btn-login:hover{
+    background-color:#7a1818;
+}
+.btn-login:active{
+    background-color:#7a1818;
+}
+.ip-content{
+    padding: 100px;
+}
+.ip-text{
+color: white;
+font-weight: 700;
+}
+.table-style{
+  
+   
+    border-radius: 10px;
+}
+.addplace input{
+    border: 1px solid #7C0C0C;
+    
+}
+.addplace select{
+    border: 1px solid #7C0C0C;
+    
+}
+.addplace label{
+    font-weight: 600;
+}
+.btn-add{
+    background-color: #7C0C0C;
+    color: white;
+}
+
+.admin{
+    background-color: #7C0C0C;
+    color: white;
+}
+
+.admin a{
+    color: white;
+    font-size: 20px;
+}
+.bd-da{
+    background-color: #e7e7e7;
+}
+.logo-text{
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.btn-akka{
+    background-color:var(--akka-apata);
+    color: white;
+}
+.about_page_img{
+    padding-left: 100px;
+}
+.about_text_de{
+    color: #474747;
+    font-weight: 600;
+}
+.ads-card{
+  
+    border: #7c0c0c 1px solid;
+}
+.btn-whapp{
+    background-color: #7C0C0C;
+    color: white;
+}
+.font-das{
+    font-size: 40px;
+    color: #7a1818;
+}
+.contact-text{
+    font-size: 40px;
+    font-weight: 700;
+}
+.contact-para{
+
+}
+.saa{
+    gap:30px;
+}
+.box-c{
+    padding: 30px;
+}
+.gap-s{
+    gap: 40px;
+}
+.s_f{
+    display: flex; 
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .slider {
+
+        padding: 40px;
+        margin-left: 0px;
+
+    }
+    .slider-ads{
+
+        padding-left: 3px;
+    }
+    .navbar-nav .nav-link.active,
+    .navbar-nav .nav-link.show {
+        color: black;
+    }
+
+    .card-margin {
+        margin-bottom: 22px;
+    }
+    .items-footer{
+        padding-top: 0px;
+    }
+}
