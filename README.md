@@ -1,2 +1,2 @@
-# Ruma-Website-(Web-Application-Development)
-Online rent boarding places websites 
+# ruma
+ruma web for assigement 
